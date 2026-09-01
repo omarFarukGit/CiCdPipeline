@@ -8,7 +8,7 @@ on:
             - mian
 
 jobs:
-    build:
+    quality-test:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
