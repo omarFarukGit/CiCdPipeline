@@ -9,6 +9,7 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 const name: string = 59;
+const name: string = 59;
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
