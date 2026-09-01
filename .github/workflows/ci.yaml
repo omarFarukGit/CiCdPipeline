@@ -1,14 +1,14 @@
 name: CI Level 1
 on:
-    push:
-        branches:
-            - main
+    # push:
+    #     branches:
+    #         - main
     pull_request:
         branches:
             - mian
 
 jobs:
-    build:
+    quality-test:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
